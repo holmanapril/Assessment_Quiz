@@ -15,4 +15,4 @@ elif played_before == "n":
 
 # If played_before = anything else print <error> please enter yes or no
 else:
-    print("<error> Please enter Yes or No")
+    print("Please enter Yes or No")
