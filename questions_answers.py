@@ -14,3 +14,11 @@ questions = ["What animals are pearls found in?", "Google Chrome, Safari, Firefo
              "What kind of food is Penne?", "How many permanent teeth does a dog have?", "At which venue is the British Grand Prix held?",
              "Name the first actor to play Dumbledore in the Harry Potter films?", "What is the capital city of Australia?", "Which animal can be seen on the Porsche logo?",
              "What is the common name for dried plums?", "Which original Avenger was not in the first few movies?", "What is Hawkeye’s real name?"]
+
+answers = ["oysters", "web browsers", "maize", "chickpeas", "vodka", "germany", "italy", "leg", "skin", "knee cap", "calcium", "black widow",
+           "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh jackman", "6", "3", "austria", "canis lupus", "5", "3",
+           "Beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "1750", "pasta", "42", "silverstone",
+           "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
+
+print(questions)
+print(answers)
