@@ -1,5 +1,8 @@
+# Imports random
 import random
+# Picks random number from 0, 44
 ask = random.randint(0, 44)
+# All my questions and answers
 questions = ["What animals are pearls found in?", "Google Chrome, Safari, Firefox, and Explorer are different types of what?",
                  "What other name does “corn” go by?", "What’s the primary ingredient in hummus?", "Which kind of alcohol is Russia is notoriously known for?",
                  "Which European nation was said to invent hot dogs?", "Which country is responsible for giving us pizza and pasta?",
@@ -20,5 +23,6 @@ answers = ["oysters", "web browsers", "maize", "chickpeas", "vodka", "germany", 
                "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh jackman", "6", "3", "austria", "canis lupus", "5", "3",
                "Beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "1750", "pasta", "42", "silverstone",
                "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
+# Prints the questions with the index number of ask
 print(questions[ask])
 print(answers[ask])
