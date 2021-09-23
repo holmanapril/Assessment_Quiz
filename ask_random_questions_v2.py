@@ -26,8 +26,14 @@ def ask_questions():
                "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh jackman", "6", "3", "austria", "canis lupus", "5", "3",
                "beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "1750", "pasta", "42", "silverstone",
                "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
-    # Prints the questions with the index number of ask
-    response = input(questions[ask])
+    # Asks user a question
+    response = input(questions[ask]).strip().lower()
+    if response == answers[ask]:
+        print("Correct")
+    else:
+        print("Incorrect")
+        print()
+        print("The correct answer is {}".format(answers[ask].capitalize()))
 
 
 # Main Routine
