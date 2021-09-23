@@ -35,6 +35,7 @@ def ask_questions():
         print()
         print("The correct answer is {}".format(answers[ask].capitalize()))
     questions.pop(questions[ask])
+    answers.pop(answers[ask])
 
 
 # Main Routine

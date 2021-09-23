@@ -34,3 +34,4 @@ else:
     print("The correct answer is {}".format(answers[ask].capitalize()))
 # Removes question that was asked
 questions.pop(questions[ask])
+answers.pop(answers[ask])
