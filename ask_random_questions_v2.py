@@ -27,7 +27,6 @@ def ask_questions():
                "beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "pasta", "42", "silverstone",
                "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
 
-
     # Asks user a question
     response = input(questions[ask]).strip().lower()
     if response == answers[ask]:
