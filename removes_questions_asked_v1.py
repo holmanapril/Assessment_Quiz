@@ -12,17 +12,18 @@ questions = ["What animals are pearls found in?", "Google Chrome, Safari, Firefo
              "How many films did Sean Connery play James Bond in?", "How many Lord of the Rings films are there?", "Who played Wolverine?",
              "When Michael Jordan played for the Chicago Bulls, how many NBA Championships did he win?", "How many presidents have been impeached?",
              "World War I began with the death of Archduke Franz Ferdinand, of which country?", "What’s the scientific name of a wolf?",
-             "How many eyes does a bee have?", "How many hearts does an octopus have?", "What vehicle Volkswagen best known for in the world?",
-             "What is the slogan of Apple Inc.?", "How long is an Olympic swimming pool (in meters)?", "Thor was the son of which God?", "What geometric shape is generally used for stop signs?",
-             "'Astro Boy' is what genre of a video game?", "How many bags of wool did “Baa Baa Black Sheep” have?", "How many fish were used to feed the 5,000 along with the loaves?",
-             "What is the Hebrew term for “commandment”?", "What’s another name for a footrest?", "What is the name of the biggest technology company in South Korea?",
-             "What kind of food is Penne?", "What is the most consumed manufactured drink in the world?", "At which venue is the British Grand Prix held?",
-             "Name the first actor to play Dumbledore in the Harry Potter films?", "What is the capital city of Australia?", "Which animal can be seen on the Porsche logo?",
-             "What is the common name for dried plums?", "Which original Avenger was not in the first few movies?", "What is Hawkeye’s real name?"]
+             "How many eyes does a bee have?", "How many hearts does an octopus have?", "What vehicle Volkswagen best known for in the world?", "What is the slogan of Apple Inc.?",
+             "In which year World War I begin?", "Thor was the son of which God?", "How many cards are there in a deck of Uno?", "'Astro Boy' is what genre of a video game?",
+             "How many bags of wool did “Baa Baa Black Sheep” have?", "How many fish were used to feed the 5,000 along with the loaves?", "What is the Hebrew term for “commandment”?",
+             "What’s another name for a footrest?", "Broadway was established in what year in New York?", "What kind of food is Penne?", "How many permanent teeth does a dog have?",
+             "At which venue is the British Grand Prix held?", "Name the first actor to play Dumbledore in the Harry Potter films?", "What is the capital city of Australia?",
+             "Which animal can be seen on the Porsche logo?", "What is the common name for dried plums?", "Which original Avenger was not in the first few movies?",
+             "What is Hawkeye’s real name?"]
 answers = ["oysters", "web browsers", "maize", "chickpeas", "vodka", "germany", "italy", "leg", "skin", "knee cap", "calcium", "black widow",
-           "asia", "led zeppelin", "country", "suzanne collins", "seven", "three", "hugh jackman", "six", "three", "austria", "canis lupus", "five", "three",
-           "beetle", "think different", "fifty", "odin", "octagon", "action", "three", "two", "mitzvah", "ottoman", "samsung", "pasta", "tea", "silverstone",
+           "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh jackman", "6", "3", "austria", "canis lupus", "5", "3",
+           "beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "pasta", "42", "silverstone",
            "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
+
 # Asks user a question
 response = input(questions[ask]).strip().lower()
 # Checks if it is correct or incorrect
