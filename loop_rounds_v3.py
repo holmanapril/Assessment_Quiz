@@ -47,7 +47,7 @@ def ask_questions():
                  "Which animal can be seen on the Porsche logo?", "What is the common name for dried plums?", "Which original Avenger was not in the first few movies?",
                  "What is Hawkeye’s real name?"]
     answers = ["oysters", "web browsers", "maize", "chickpeas", "vodka", "germany", "italy", "leg", "skin", "knee cap", "calcium", "black widow",
-               "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh Jackman", "6", "3", "austria", "canis lupus", "5", "3",
+               "asia", "led zeppelin", "country", "suzanne collins", "7", "3", "hugh jackman", "6", "3", "austria", "canis lupus", "5", "3",
                "beetle", "think different", "1914", "odin", "108", "action", "3", "2", "mitzvah", "ottoman", "1750", "pasta", "42", "silverstone",
                "richard harris", "canberra", "horse", "prunes", "wasp", "clint barton"]
     # Loops questions until user has played the amount of questions they wanted to play
