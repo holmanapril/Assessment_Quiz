@@ -1,4 +1,4 @@
-# Function for yes_no
+# Functions
 def yes_no(question):
     valid = False
     while not valid:
@@ -17,4 +17,22 @@ def yes_no(question):
 
 
 def instructions():
-    print("hi")
+    print("                  *** How to play ***")
+    print()
+    print("Choose the amount of questions you would like play with(10, 15 or 20)")
+    print()
+    print("Answer the questions as well as you can, press enter once you have answered")
+    print()
+    print("Once you have answered as many questions as you asked to play your score will be shown")
+    print()
+    print("              *** Tips and Information ***")
+    print()
+    print("When answering questions do not use 'the' before any of your answers, this will make your answers wrong")
+    print()
+    print("Pay very close attention to your spelling, if your spelling is incorrect you will get it wrong")
+    print()
+
+
+# Main Routine
+show_instructions = yes_no("Have you played before?")
+start = input("Press <Enter> to start").lower()
