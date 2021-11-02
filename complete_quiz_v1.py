@@ -123,7 +123,6 @@ def decoration(greeting, symbol):
 
 
 # Main Routine
-
 decoration("Welcome to my General Knowledge Quiz", "*")
 show_instructions = yes_no("Have you played before?")
 question_amount = how_many_questions("How many questions would you like to play? 10, 15 or 20?", 10, 15, 20)

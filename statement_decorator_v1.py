@@ -92,5 +92,7 @@ def decoration(greeting, symbol):
 
 # Main Routine
 # Runs my functions
+decoration("Welcome to my General Knowledge Quiz", "*")
 question_amount = how_many_questions("How many questions would you like to play? 10, 15 or 20?", 10, 15, 20)
+start = input("Press <Enter> to start").lower()
 ask_questions()
