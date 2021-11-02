@@ -202,7 +202,7 @@ def ask_questions():
                "green",
                "helium",
                "asuncion",
-               "david bowie",]
+               "david bowie"]
 
     # Loops questions until user has played the amount of questions they wanted to play
     while amount_questions_asked != question_amount + 1:
@@ -244,7 +244,6 @@ def decoration(greeting, symbol):
 
 
 # Main Routine
-
 decoration("Welcome to my General Knowledge Quiz", "*")
 show_instructions = yes_no("Have you played before?")
 question_amount = how_many_questions("How many questions would you like to play? 10, 15, 20 or 30?", 10, 15, 20, 30)
