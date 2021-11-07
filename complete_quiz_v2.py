@@ -48,7 +48,7 @@ def how_many_questions(question, choice_1, choice_2, choice_3, choice_4):
             response = int(input(question))
             # If questions_amount is equal to 10, 15 or 20 it print it
             if response == choice_1 or response == choice_2 or response == choice_3 or response == choice_4:
-                print("You chose to play {} rounds".format(response))
+                print("You chose to play {} questions".format(response))
                 print()
                 return response
             # If questions_amount it not one of the choices print please enter 10, 15, 20 or 30
@@ -209,6 +209,7 @@ def ask_questions():
         print("Question {}:".format(amount_questions_asked))
         ask = random.randint(0, len(questions)-1)
         response = input(questions[ask]).strip().lower()
+        # Checks answers
         if response == answers[ask]:
             print()
             decoration("Correct", "*")
@@ -231,9 +232,12 @@ def ask_questions():
     print("Final Score = {}/{}".format(score, amount_questions_asked - 1))
     print()
     print("Great Job!")
+    print()
+    decoration("Thank You for playing", "*")
 
 
 def decoration(greeting, symbol):
+    # takes given greeting and symbol and puts the same amount of symbols as the amount of characters in the greeting
     sides = symbol
     greeting = "{} {} {}".format(sides, greeting, sides)
     top_bottom = symbol * len(greeting)

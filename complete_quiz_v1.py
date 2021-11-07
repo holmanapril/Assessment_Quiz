@@ -46,7 +46,7 @@ def how_many_questions(question, choice_1, choice_2, choice_3):
             response = int(input(question))
             # If questions_amount is equal to 10, 15 or 20 it print it
             if response == choice_1 or response == choice_2 or response == choice_3:
-                print("You chose to play {} rounds".format(response))
+                print("You chose to play {} questions".format(response))
                 print()
                 return response
             # If questions_amount it not one of the choices print please enter 10, 15 or 20
@@ -93,9 +93,6 @@ def ask_questions():
             print()
             score += 1
             amount_questions_asked += 1
-            # Removes questions asked
-            questions.remove(questions[ask])
-            answers.remove(answers[ask])
         else:
             print()
             decoration("Incorrect", "-")
@@ -103,13 +100,15 @@ def ask_questions():
             print("The correct answer is {}".format(answers[ask].title()))
             print()
             amount_questions_asked += 1
-            # Removes questions asked
-            questions.remove(questions[ask])
-            answers.remove(answers[ask])
+        # Removes questions asked
+        questions.remove(questions[ask])
+        answers.remove(answers[ask])
     # Prints score out
     print("Final Score = {}/{}".format(score, amount_questions_asked - 1))
     print()
     print("Great Job!")
+    print()
+    decoration("Thank You for playing", "*")
 
 
 def decoration(greeting, symbol):
@@ -128,4 +127,3 @@ show_instructions = yes_no("Have you played before?")
 question_amount = how_many_questions("How many questions would you like to play? 10, 15 or 20?", 10, 15, 20)
 start = input("Press <Enter> to start").lower()
 ask_questions()
-
